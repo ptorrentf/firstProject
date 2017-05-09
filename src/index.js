@@ -13,9 +13,9 @@ YTSearch({key: API_KEY, term: 'surfboards'}, function(data){
 const App = () => {
   return (
     <div>
-  <SearchBar />
-  </div>
-);
+      <SearchBar />
+    </div>
+  );
 }
 
 ReactDOM.render(<App />, document.querySelector('.container'));

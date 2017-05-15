@@ -1,6 +1,8 @@
 import React from 'react';
 
 const VideoListItem = ({video}) => {
+    //const VideoListItem = (props) => {
+    //const video = props.video; codigo equivalente al de arriba
     const imageUrl = video.snippet.thumbnails.default.url;
 
     return (
@@ -16,8 +18,7 @@ const VideoListItem = ({video}) => {
         </div>
     </li>
     );
-//const VideoListItem = (props) => {
-    //const video = props.video; codigo equivalente al de arriba
+
     
 };
 

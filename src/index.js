@@ -15,7 +15,7 @@ class App extends Component {
     this.state = { videos: [] }; 
 
     YTSearch({key: API_KEY, term: 'surfboards'}, (videos) => { //Se puede factorizar function(data) = (data) =>
-      this.setState({ videos }); //se factoriza videos: videos = videos Esto porque son el mismo string, caso particular.
+      this.setState({ videos }); //se sfactoriza videos: videos = videos Esto porque son el mismo string, caso particular.
     });
   }
 
